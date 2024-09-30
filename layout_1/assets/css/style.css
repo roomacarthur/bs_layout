@@ -1,0 +1,27 @@
+/* header,
+main,
+footer {
+    border: 2px solid red;
+}
+
+nav {
+    border: 2px solid blue;
+} */
+
+.container {
+    border: 2px dotted green
+}
+
+.container-fluid, .container-fluid {
+    border: 2px dotted orange;
+}
+
+.col,
+.col-md-8,
+.col-4 {
+    border: 2px dotted blue;
+}
+
+.col-md-4 {
+    border: 2px dotted blueviolet;
+}

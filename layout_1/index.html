@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap Imports -->
+    <!-- DOCS: getbootstrap.com/docs/4.6/getting-started/introduction/ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- Custom CSS import (keep below bootstrap)-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Page title-->
+    <title>Layout1</title>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+        <!-- Navbar for pages-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Bootstrap Layouts</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown link
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    <!-- Header, containing navigation. -->
+    <header class="container-fluid">
+        <nav class="container navbar">
+            <h1>Header</h1>
+        </nav>
+    </header>
+
+    <!-- Main content of the site. -->
+    <main class="container flex-grow-1 mt-2 mb-2 ">
+        <div class="d-flex">
+            <div class=" container d-flex flex-column justify-content-center align-items-center mt-2 mb-2">
+                <h1>Main</h1>
+                <h2>Content</h2>
+            </div>
+        </div>
+        <div class="container mt-2">
+            <div class="row p-2">
+                <div class="col-md-8 col-12">
+                    <h3>Main Content</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quis maiores adipisci possimus
+                        eos! Consequuntur enim vitae dignissimos dolorum! Tenetur dolorem impedit perferendis ab quaerat
+                        mollitia maxime, molestiae voluptatibus dolor.</p>
+                    <h4>A Bit More Content</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, officiis. In accusamus
+                        maiores quos repellendus iusto expedita culpa assumenda vitae distinctio laborum quae odit optio
+                        quidem est, earum illo dolorem!</p>
+                </div>
+                <div class="col-md-4 col-12">
+                    <h3>Side Bar</h3>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer, containing navigation and external links. -->
+    <footer class="container-fluid">
+        <nav class="container navbar">
+            <h1>Footer</h1>
+        </nav>
+    </footer>
+
+
+
+    <!-- Bootstrap JS, the order below is important. -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
